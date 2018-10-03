@@ -1,6 +1,6 @@
-# Test-Website (<a href="http://www.komonogaming.ga" target="_blank">LINK</a>)
+# laura.ga (<a href="https://www.laura.ga" target="_blank">LINK</a>)
 
-URL used for web testing.
+GitHub repository for my portfolio website.
 
 # Technologies Used
 
