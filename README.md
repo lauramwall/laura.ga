@@ -18,7 +18,7 @@ GitHub repository for my portfolio website. Feel free to take a look through my 
 
 # Screencap
 
-N/A.
+<img src="preview.png" />
 
 # Credits
 
