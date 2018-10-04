@@ -289,6 +289,18 @@ img:hover {
   margin-bottom: 30px;
 }
 
+#tech2 {
+  border-left: 6px solid #2445CC;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+#tech3 {
+  border-left: 6px solid #2445CC;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
 /* Help
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .get-help {
