@@ -1,8 +1,8 @@
 /* --------------------------------------------------------
 Stylesheet for www.laura.ga
 
-Version: 2.2
-Last modified: September 21, 2018
+Version: 2.4
+Last modified: October 4, 2018
 Author: Laura Wall
 Email: lauramwall@outlook.com
 Website: https://www.laura.ga/
@@ -36,6 +36,17 @@ h3 {
 h5 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    
+}
+
+a:hover {
+    color: #2445CC;
+    
 }
 
 /* Text highlighting
@@ -174,23 +185,23 @@ img:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .icon {
-    color: #595959;
+    color: #222;
     font-size: 21px;
     padding: 0.3rem;
 }
 
 .icon1:hover {
-    color: #0279b3;
+    color: #2445CC;
     cursor: pointer;
 }
 
 .icon2:hover {
-    color: #000;
+    color: #2445CC;
     cursor: pointer;
 }
 
 .icon3:hover {
-    color: #007bd5;
+    color: #2445CC;
     cursor: pointer;
 }
 
