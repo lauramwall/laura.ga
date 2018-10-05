@@ -206,6 +206,9 @@ img:hover {
     cursor: pointer;
 }
 
+/* Back to Top button styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .backtotop {
     color: #595959;
     float: right;
@@ -283,6 +286,9 @@ img:hover {
   opacity: .8;
   font-weight: 300;
 }
+
+/* Core Focuses 'Tech' styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .tech {
   border-left: 6px solid #2445CC;
