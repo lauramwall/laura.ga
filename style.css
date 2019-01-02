@@ -2,8 +2,8 @@
 /* --------------------------------------------------------
 Stylesheet for www.laura.ga
 
-Version: 2.4
-Last modified: October 5, 2018
+Version: 3.0
+Last modified: January 2nd, 2019
 Author: Laura Wall
 Email: lauramwall@outlook.com
 Website: https://www.laura.ga/
@@ -239,6 +239,7 @@ img:hover {
     background-color: #2445CC;
     color: #FFF;
     font-weight: 700;
+    text-shadow: 2px 2px #000;
 }
 
 .get-help {
