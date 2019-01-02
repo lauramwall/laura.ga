@@ -239,7 +239,7 @@ img:hover {
     background-color: #2445CC;
     color: #FFF;
     font-weight: 700;
-    text-shadow: 2px 2px #000;
+    /* text-shadow: 2px 2px #000; */
 }
 
 .get-help {
