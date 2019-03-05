@@ -41,12 +41,383 @@ h5 {
 
 a {
     text-decoration: none;
-    color: #222;
+    color: #fff;
     
 }
 
 a:hover {
     color: #0078d7;
+    
+}
+
+/* Text highlighting
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+::-moz-selection {
+  background: #212121;
+  color: #FFF;
+  text-shadow: none; 
+}
+
+::selection {
+  background: #212121;
+  color: #FFF;
+  text-shadow: none; 
+}
+
+/* Hero button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button {
+    border-radius: 0px!important;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+    border: 3px solid #212121;
+    height: auto;
+    color: #595959;
+}
+
+.button:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+    border: 3px solid #212121;
+    -webkit-box-shadow: 7px 7px #0078d7;
+            box-shadow: 7px 7px #0078d7;
+    background-color: transparent;
+    color: #212121;
+}
+
+/* Get in Touch button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.contact_button {
+    border-radius: 0px!important;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+    border: 3px solid #212121;
+    height: auto;
+    display: inline-block;
+    padding: 0 30px;
+    color: #595959;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.contact_button:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+    border: 3px solid #212121;
+    -webkit-box-shadow: 7px 7px #0078d7;
+            box-shadow: 7px 7px #0078d7;
+    background-color: transparent;
+    color: #212121;
+} 
+
+/* Syling to left align any divs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.lefty {
+    text-align: left;
+}
+
+.projects {
+    position:relative;
+    width:100%;
+}
+
+/* Image styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+img {
+  border: 1px solid #e8e8e8;
+  width: 100%;
+  border-radius: 4px;
+  float: left;
+  max-width: 330px;
+  display: block;
+  margin: 1rem;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  -o-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+img:hover {
+   border: 1px solid #e8e8e8;
+   -webkit-box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
+           box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
+   -webkit-transform: translateY(-.5rem);
+   -ms-transform: translateY(-.5rem);
+       transform: translateY(-.5rem);
+   -webkit-transition: -webkit-transform 0.2s ease;
+   transition: -webkit-transform 0.2s ease;
+   -o-transition: transform 0.2s ease;
+   transition: transform 0.2s ease;
+   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+/* Icon styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.icon {
+    color: #fff;
+    font-size: 21px;
+    padding: 0.3rem;
+}
+
+.icon1:hover {
+    color: #0078d7;
+    cursor: pointer;
+}
+
+.icon2:hover {
+    color: #0078d7;
+    cursor: pointer;
+}
+
+.icon3:hover {
+    color: #0078d7;
+    cursor: pointer;
+}
+
+/* Back to Top button styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.backtotop {
+    color: #595959;
+    float: right;
+}
+
+.backtotop:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 8rem;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 2.0rem;
+}
+
+.block {
+    background-color: #0078d7;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: capitalize;
+    /* text-shadow: 2px 2px #000; */
+}
+
+.get-help {
+    padding-bottom: 0;
+}
+
+.footer {
+    margin-top: 18rem;
+    padding-bottom: 2rem;
+    color: #222;
+    font-size: 12px;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.phones {
+  position: relative;
+}
+.phone {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+.phone + .phone {
+  display: none;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-size: cover;
+  color: #000;
+  margin-bottom: 6rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.value-heading {
+  margin-bottom: .5rem;
+  margin-top: 1rem;    
+  line-height: normal;
+  color: #fff;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Core Focuses 'Tech' styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.tech {
+  border-left: 6px solid #0078d7;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.tech2 {
+  border-left: 6px solid #0078d7;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.tech3 {
+  border-left: 6px solid #0078d7;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-size: cover;
+  color: #fff;
+}
+.categories .section-description { 
+  margin-bottom: 4rem;
+}
+
+@media and (max-width: 550px) {
+  .hero-heading {
+    font-size: 3rem;
+   }
+}
+
+/* Responsive styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 12rem;
+  }
+  .hero {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+  .phone {
+    position: absolute;
+    top: -7rem;
+    right: 3rem;
+    max-height: 362px;
+    z-index: 3;
+  }
+  .phone + .phone {
+    top: -6rem;
+    display: block;
+    max-width: 73.8%;
+    right: 0;
+    z-index: 2;
+    max-height: 338px;
+  }
+  .hero-heading {
+    font-size: 3.2rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero {
+    height: 80px;
+  }
+  .hero-heading {
+    font-size: 3.4rem;
+  }
+  .section {
+    padding: 16rem 0 16rem;
+  }
+  .hero {
+    padding: 16rem 0 14rem;
+  }
+  .section-description {
+    margin-right: auto;
+  }
+  .phone {
+    top: -14rem;
+    right: 5rem;
+    max-height: 510px;
+  }
+  .phone + .phone {
+    top: -12rem;
+    max-height: 472px;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 16rem 0 16rem;
+  }
+  .hero {
+    padding: 14rem 0;
+  }
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+  .phone {
+    top: -16rem;
+    max-height: 615px;
+  }
+  .phone + .phone {
+    top: -14rem;
+    max-height: 570px;
+  }
+}
+
     
 }
 
