@@ -281,7 +281,8 @@ img:hover {
 }
 .value-heading {
   margin-bottom: .5rem;
-  margin-top: 1rem;    
+  margin-top: 1rem;
+  font-size: 2.2rem;
   line-height: normal;
   color: #fff;
 }
