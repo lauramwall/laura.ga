@@ -76,6 +76,27 @@ a:visited {
     padding-left: 10px;
 }
 
+.sticky-footer {
+   height: 36px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #5755d9;
+   display: none;
+   text-align: center;
+}
+
+.sticky-footer a {
+   width: 33%;
+}
+
+.sticky-footer .btn {
+   width: 100%;
+}
+
+/* Responsive queries */
+
 @media (max-width: 840px) {
     .mobile-only {
         display: -webkit-box;
@@ -86,6 +107,9 @@ a:visited {
 
     .mobile-margin-top {
         margin-top: 30px;
+    }
+    .sticky-footer {
+        display: block!important;
     }
 }
 
