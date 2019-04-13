@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'BurbankBigRegular-Bold';
-  src:  url('assets/BurbankBigRegular-Bold.otf') format('otf')
+  src:  url('assets/BurbankBigRegular-Bold.otf');
 }
 
 body {
