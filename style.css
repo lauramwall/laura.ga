@@ -79,6 +79,8 @@ a:visited {
 .left-border {
     border-left: 6px solid #5755d9;
     padding-left: 10px;
+    font-size: .8rem;
+    font-weight: 500;
 }
 
 .sticky-footer {
