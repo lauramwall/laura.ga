@@ -5,6 +5,8 @@ body {
 }
 
 .btn {
+    -webkit-transition: background 200ms, border 200ms, color 200ms!important;
+    -o-transition: background 200ms, border 200ms, color 200ms!important;
     transition: background 200ms, border 200ms, color 200ms!important;
 }
 
