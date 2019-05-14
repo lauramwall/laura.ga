@@ -67,21 +67,21 @@
     <div class="hero hero-lg bg-grey">
         <div class="hero-body">
             <figure class="avatar avatar-xl margin-bottom-30 tooltip" data-tooltip="Hey, that's me!">
-                <img src="img/0.jpg" alt="An image of Laura Wall, a Front End Developer residing in Phoenix, Arizona">
+                <img src="img/0.jpg" alt="An image of Laura Wall, a Front End Developer residing in Phoenix, Arizona" style="border: 3px solid #aaf442;">
             </figure>
-            <h1 style="margin-bottom: 0.2rem;">Laura Wall</h1>
+            <h1 style="margin-bottom: 0rem;">Laura Wall</h1>
             <p>Front End Developer</p>
         </div>
 
         <div class="columns button-column">
             <div class="column col-auto">
-                <a tabindex="1" aria-label="Visit Laura Wall's LinkedIn to learn more information" href="https://www.linkedin.com/in/lauramwall/" target="_self" rel="noopener noreferrer"><button type="button" class="btn btn-lg bg-secondary">LinkedIn<i class="icon icon-arrow-right margin-left-10 margin-bottom-2" style="font-size: 14px; vertical-align: middle;"></i></button></a>
+                <button type="button" class="btn bg-default btn-linkedin"><a class="button-link" tabindex="1" aria-label="Visit Laura Wall's LinkedIn to learn more information" href="https://www.linkedin.com/in/lauramwall/" target="_self" rel="noopener noreferrer"><i class="fab fa-linkedin margin-right-10"></i>LinkedIn</a></button>
             </div>
             <div class="column col-auto">
-                <a tabindex="2" aria-label="Visit Laura Wall's GitHub to view her projects" href="https://www.github.com/lauramwall/" target="_self" rel="noopener noreferrer"><button type="button" class="btn btn-lg bg-secondary">GitHub<i class="icon icon-arrow-right margin-left-10 margin-bottom-2" style="font-size: 14px; vertical-align: middle;"></i></button></a>
+                <button type="button" class="btn bg-default"><a class="button-link" tabindex="2" aria-label="Visit Laura Wall's GitHub to view her projects" href="https://www.github.com/lauramwall/" target="_self" rel="noopener noreferrer"><i class="fab fa-github margin-right-10"></i>GitHub</a></button>
             </div>
             <div class="column col-auto">
-                <a tabindex="3" aria-label="Send an email to Laura Wall" href="mailto:lauramwall@outlook.com"><button type="button" class="btn btn-lg bg-secondary">Email<i class="icon icon-arrow-right margin-left-10 margin-bottom-2" style="font-size: 14px; vertical-align: middle;"></i></button></a>
+                <button type="button" class="btn bg-default"><a class="button-link" tabindex="3" aria-label="Send an email to Laura Wall" href="mailto:lauramwall@outlook.com"><i class="fas fa-envelope margin-right-10"></i>Email</a></button>
             </div>
         </div>
     </div>
@@ -89,7 +89,9 @@
     <div class="hero hero-sm bg-grey">
         <div class="hero-body">
             <h3 class="margin-bottom-30">About Me</h3>
-            <p>Hi there!&nbsp;&nbsp;👋🏼&nbsp;Thanks for stopping by to learn a little bit more about me. My name is Laura Wall and I am a 22-year old <a href="https://cdn-images-1.medium.com/max/1600/1*-Ken3amzr9sSwza27CWJaQ.jpeg" target="_self" rel="noopener noreferrer">Front End Developer <i class="fas fa-external-link-alt"></i></a> living near Phoenix, Arizona. At my current position with the University of Phoenix, I professionally develop and integrate front-end UI components onto <a href="https://www.phoenix.edu/" target="_self" rel="noopener noreferrer">phoenix.edu <i class="fas fa-external-link-alt"></i></a> in an Agile environment.<br><br>Long story short, I embody a burning passion for anything and everything related to programming. Each day I drive myself to build a new project with the skills that I have continued to learn. When I’m not digging deep into code, I enjoy playing a variety of video games (Fortnite, Apex Legends &amp; Rainbow Six: Siege, especially), watching American Horror Story, and spending time with my family.</p>
+            <p>Hi, there! Thanks for stopping by to learn a little bit more about me. My name is Laura Wall and I am a 22-year old <a href="https://cdn-images-1.medium.com/max/1600/1*-Ken3amzr9sSwza27CWJaQ.jpeg" target="_self" rel="noopener noreferrer">Front End Developer <i class="fas fa-external-link-alt"></i></a> living near Columbus, Ohio. At my current position with the University of Phoenix, I professionally develop and integrate front-end UI components onto <a href="https://www.phoenix.edu/" target="_self" rel="noopener noreferrer">phoenix.edu <i class="fas fa-external-link-alt"></i></a> in an Agile environment.</p>
+            
+            <p>To keep things short and sweet, I embody a passion for anything and everything related to programming. Each day I push myself to build a new project with the skills that I have continued to practice. When I’m not digging deep into code, I enjoy playing a variety of video games like Fortnite and Rainbow Six: Siege, watching American Horror Story, and spending time with my family.</p> 
         </div>
     </div>
 
@@ -98,10 +100,13 @@
             <h3 class="margin-bottom-30">Recent Projects</h3>
             <div class="columns">
                 <div class="column col-md-auto">
-                    <h6 class="mobile-only">Mega Navigation&nbsp;-&nbsp;<a href="https://www.phoenix.edu/" target="_self" rel="noopener noreferrer">University of Phoenix</a></h6>
+                    <div class="mobile-spacing">
+                        <h6 class="mobile-only">Mega Navigation&nbsp;-&nbsp;</h6>
+                        <h6 class="mobile-only mobile-secondary"><a href="https://www.phoenix.edu/" target="_self" rel="noopener noreferrer">University of Phoenix <i class="fas fa-external-link-alt"></i></a></h6>
+                    </div>
                     <div class="popover popover-top">
                         <div class="card funky-border">
-                            <a tabindex="4" href="https://www.phoenix.edu/" target="_self" rel="noopener noreferrer">
+                            <a tabindex="4" href="https://www.phoenix.edu/" target="_self" rel="noopener noreferrer" style="border-bottom: none;">
                                 <div class="card-image">
                                     <img class="img-responsive" src="https://www.laura.ga/img/meganav.png" alt="Screenshot of the mega navigation for the University of Phoenix">
                                 </div>
@@ -123,10 +128,13 @@
                     </div>
                 </div>
                 <div class="column col-md-auto">
-                    <h6 class="mobile-only">Homepage Component Prototype&nbsp;-&nbsp;<a href="https://www.phoenix.edu/" target="_self" rel="noopener noreferrer">University of Phoenix</a></h6>
+                    <div class="mobile-spacing">
+                        <h6 class="mobile-only">Homepage Component Prototype&nbsp;-&nbsp;</h6>
+                        <h6 class="mobile-only mobile-secondary"><a href="https://www.phoenix.edu/" target="_self" rel="noopener noreferrer">University of Phoenix <i class="fas fa-external-link-alt"></i></a></h6>
+                    </div>
                     <div class="popover popover-top">
                         <div class="card funky-border">
-                            <a tabindex="6" href="https://lauramwall.github.io/.edu-Homepage-Prototype/" target="_self" rel="noopener noreferrer">
+                            <a tabindex="6" href="https://lauramwall.github.io/.edu-Homepage-Prototype/" target="_self" rel="noopener noreferrer" style="border-bottom: none;">
                                 <div class="card-image">
                                     <img class="img-responsive" src="img/pic.png" alt="Screenshot of a homepage compononent prototype for the University of Phoenix">
                                 </div>
@@ -148,10 +156,13 @@
                     </div>
                 </div>
                 <div class="column col-md-auto">
-                    <h6 class="mobile-only">Single Page Application&nbsp;-&nbsp;<a href="https://lauramwall.github.io/Backspace-Website-Example/index.html" target="_self" rel="noopener noreferrer">Backspace</a></h6>
+                    <div class="mobile-spacing">
+                        <h6 class="mobile-only">Single Page Application&nbsp;-&nbsp;</h6>
+                        <h6 class="mobile-only mobile-secondary"><a href="https://lauramwall.github.io/Backspace-Website-Example/index.html" target="_self" rel="noopener noreferrer">Backspace <i class="fas fa-external-link-alt"></i></a></h6>
+                    </div>
                     <div class="popover popover-top">
                         <div class="card funky-border">
-                            <a tabindex="8" href="https://lauramwall.github.io/Backspace-Website-Example/index.html" target="_self" rel="noopener noreferrer">
+                            <a tabindex="8" href="https://lauramwall.github.io/Backspace-Website-Example/index.html" target="_self" rel="noopener noreferrer" style="border-bottom: none;">
                                 <div class="card-image">
                                     <img class="img-responsive" src="img/back.png" alt="Screenshot of a single page application for Backspace">
                                 </div>
@@ -199,7 +210,7 @@
                     </div>
                 </div>
             </div> -->
-            <h6 class="margin-top-30" style="opacity: 0.5;"><i>More projects coming soon!</i></h6>
+            <h6 style="opacity: 0.5;"><i>More examples coming soon!</i></h6>
 
         </div>
     </div>
@@ -212,12 +223,12 @@
                     <div class="tile">
                         <div class="tile-icon">
                             <div class="example-tile-icon">
-                                <i class="fas fa-code blue-purple-text"></i>
+                                <i class="fas fa-code electric-text"></i>
                             </div>
                         </div>
                         <div class="tile-content">
                             <h5 class="tile-title">Web Development</h5>
-                            <p class="tile-subtitle">I often build fully responsive websites &amp; single page applications using a variety of programming languages. I also develop a wide range of web-related projects both professionally and in my personal time.</p>
+                            <p class="tile-subtitle">My primary focus is building fully responsive websites &amp; single page applications using a variety of programming languages. I also develop a wide range of web-related projects both professionally and in my personal time, for example, email development and HTML5 banner advertisements.</p>
                             <p class="tile-title left-border">Tech: HTML, LESS, CSS, JavaScript, jQuery, Bootstrap, Adobe Experience Manager, Wordpress, Joomla</p>
                         </div>
                     </div>
@@ -226,12 +237,12 @@
                     <div class="tile">
                         <div class="tile-icon">
                             <div class="example-tile-icon">
-                                <i class="fas fa-palette blue-purple-text"></i>
+                                <i class="fas fa-palette electric-text"></i>
                             </div>
                         </div>
                         <div class="tile-content">
                             <h5 class="tile-title">Graphic Design</h5>
-                            <p class="tile-subtitle">I design and create content for banner ads, email campaigns, Twitch/YouTube assets and logos. I also produce marketing-related assets such as design decks, banner ad layouts, and educational materials.</p>
+                            <p class="tile-subtitle">A solid strong suit of mine is creating and designing banner ads, email campaigns, Twitch/YouTube assets and logos. I also have produced marketing-related assets such as design decks, banner ad layouts, and educational materials.</p>
                             <p class="tile-title left-border">Tech: Photoshop, InDesign, Animate, Illustrator, HTML, CSS, JavaScript, GSAP</p>
                         </div>
                     </div>
@@ -243,23 +254,24 @@
     <div class="hero hero-sm bg-grey" style="padding-top: 8rem;">
         <div class="hero-body">
             <h3 class="margin-bottom-30">Get In Touch</h3>
-            <p>Do not hesitate to reach out to me if you have any questions or comments. I will be sure to get back to you as soon as possible. Thanks!</p>
+            <p>Do not hesitate to reach out to me if you have any questions or comments. I will be sure to get back to you as soon as possible. Thank you.</p>
         </div>
         <div class="columns button-column">
             <div class="column col-auto">
-                <a tabindex="10" aria-label="Visit Laura Wall's LinkedIn to learn more information" href="https://www.linkedin.com/in/lauramwall/" target="_self" rel="noopener noreferrer"><button type="button" class="btn btn-lg bg-secondary">LinkedIn<i class="icon icon-arrow-right margin-left-10 margin-bottom-2" style="font-size: 14px; vertical-align: middle;"></i></button></a>
+                <button type="button" class="btn bg-default btn-linkedin"><a class="button-link" tabindex="1" aria-label="Visit Laura Wall's LinkedIn to learn more information" href="https://www.linkedin.com/in/lauramwall/" target="_self" rel="noopener noreferrer"><i class="fab fa-linkedin margin-right-10"></i>LinkedIn</a></button>
             </div>
             <div class="column col-auto">
-                <a tabindex="11" aria-label="Visit Laura Wall's GitHub to view her projects" href="https://www.github.com/lauramwall/" target="_self" rel="noopener noreferrer"><button type="button" class="btn btn-lg bg-secondary">GitHub<i class="icon icon-arrow-right margin-left-10 margin-bottom-2" style="font-size: 14px; vertical-align: middle;"></i></button></a>
+                <button type="button" class="btn bg-default"><a class="button-link" tabindex="2" aria-label="Visit Laura Wall's GitHub to view her projects" href="https://www.github.com/lauramwall/" target="_self" rel="noopener noreferrer"><i class="fab fa-github margin-right-10"></i>GitHub</a></button>
             </div>
             <div class="column col-auto">
-                <a tabindex="12" aria-label="Send an email to Laura Wall" href="mailto:lauramwall@outlook.com"><button type="button" class="btn btn-lg bg-secondary">Email<i class="icon icon-arrow-right margin-left-10 margin-bottom-2" style="font-size: 14px; vertical-align: middle;"></i></button></a>
+                <button type="button" class="btn bg-default"><a class="button-link" tabindex="3" aria-label="Send an email to Laura Wall" href="mailto:lauramwall@outlook.com"><i class="fas fa-envelope margin-right-10"></i>Email</a></button>
             </div>
         </div>
     </div>
 
     <div class="docs-footer grid-lg" style="margin-top: 10rem; opacity: 0.7;">
-        <p><a tabindex="13" aria-label="View the code for this webpage" href="https://github.com/lauramwall/laura.ga" target="_self" rel="noopener noreferrer"><span class="fas fa-code" alt="Coded" style="color:#000;"></span></a> by me with <span class="fas fa-heart" alt="love" style="color:#e25656;"></span></p>
+        <p style="margin: 0 0 0.5rem;">Made using <a tabindex="13" aria-label="View the source code of this website" href="https://github.com/lauramwall/laura.ga" target="_self" rel="noopener noreferrer" style="border-bottom: none;"><span class="fas fa-code" alt="Coded" style="color: #fff;"></span></a> by me with <span class="fas fa-heart" alt="love" style="color: #e25656;"></span></p>
+        <p>Designed in 2019</p>
     </div>
 
     <footer class="sticky-footer">
