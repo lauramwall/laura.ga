@@ -28,16 +28,12 @@
     <!-- [:[ Google Analytics ]:] -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97433184-1"></script>
-    <script type="text/javascript">
-        window.dataLayer = window.dataLayer || [];
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-97433184-1');
-
+      gtag('config', 'UA-97433184-1');
     </script>
 
     <!-- [:[ CSS Framework - Spectre ]:] -->
