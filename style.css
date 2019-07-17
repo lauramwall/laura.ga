@@ -22,7 +22,7 @@ body {
 }
 
 .bg-default {
-    background-color: #000;
+    background-color: #121217;
     font-size: .9rem;
     height: 2.5rem;
     min-width: 150px;
@@ -102,6 +102,11 @@ body {
 .avatar.avatar-xl {
     height: 6rem;
     width: 6rem;
+}
+
+.padding-l-r {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /*
@@ -194,9 +199,14 @@ a:hover, a:active {
 
 .popover-container .card {
     color: #fff;
-    background-color: #000;
+    background-color: #121217;
     border: 3px solid #aaf442;
     border-radius: .25rem;
+}
+
+.card .card-body, .card .card-footer, .card .card-header {
+    padding: 0.5rem;
+    padding-bottom: 0;
 }
 
 /* Responsive queries */
@@ -242,5 +252,9 @@ a:hover, a:active {
     .bg-default {
         width: 100%;
         margin-top: 14px;
+    }
+    .padding-l-r {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
     }
 }
