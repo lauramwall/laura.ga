@@ -17,10 +17,6 @@ GitHub repository for my portfolio website. Feel free to take a look through my 
   <li>ImgBot (Optimizes images)</li>
 </ul>
 
-# Screencap
-
-<img src="preview.png" />
-
 # Credits
 
 N/A.
