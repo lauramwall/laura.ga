@@ -47,7 +47,7 @@ body {
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    border: 3px solid #aaf442;
+    border: 2px solid #eb9a23;
     /* box-shadow: 4px 5px #352d39; */
 }
 
@@ -55,20 +55,20 @@ body {
     -webkit-box-shadow: 6px 7px #000;
             box-shadow: 6px 7px #000;
     background-color: #000;
-    border: 3px solid #aaf442;
+    border: 2px solid #eb9a23;
 }
 
 .bg-default:active >  .button-link, .bg-default:hover > .button-link, .bg-default:focus > .button-link {
-    color: #aaf442!important;
+    color: #eb9a23!important;
 }
 
 .electric-text {
-    color: #aaf442 !important;
+    color: #eb9a23 !important;
     font-size: 20px;
 }
 
 .electric-title {
-    color: #aaf442 !important;
+    color: #eb9a23 !important;
     font-weight: 700;
     font-size: 5rem;
 }
@@ -152,12 +152,12 @@ body {
 */
 
 .popover-container .card {
-    border: 1px solid #aaf442;
+    border: 1px solid #eb9a23;
 }
 
 a {
     color: #fff!important;
-    border-bottom: 2px solid #aaf442;
+    border-bottom: 2px solid #eb9a23;
     padding-bottom: 1px;
     -webkit-transition: all .2s ease-in-out!important;
     -o-transition: all .2s ease-in-out!important;
@@ -165,7 +165,7 @@ a {
 }
 
 a:hover, a:active {
-    color: #aaf442!important;
+    color: #eb9a23!important;
     text-decoration: none;
 }
 
@@ -181,7 +181,7 @@ a:hover, a:active {
 }
 
 .left-border {
-    border-left: 6px solid #aaf442;
+    border-left: 6px solid #eb9a23;
     padding-left: 10px;
     font-size: .8rem;
     font-weight: 500;
@@ -207,8 +207,8 @@ a:hover, a:active {
 }
 
 .btn.btn-primary {
-    background: #aaf442;
-    border-color: #9be03a;
+    background: #eb9a23;
+    border-color: #eb9a23;
     border-width: 0.5px;
     border-radius: 0px;
     color: #000;
@@ -218,8 +218,8 @@ a:hover, a:active {
 }
 
 .btn.btn-primary:focus, .btn.btn-primary:hover, .btn.btn-primary:active {
-    background: #9be03a;
-    border-color: #aaf442;
+    background: #cf881f;
+    border-color: #cf881f;
     color: #000;
 }
 
@@ -230,7 +230,7 @@ a:hover, a:active {
 .popover-container .card {
     color: #fff;
     background-color: #121217;
-    border: 3px solid #aaf442;
+    border: 2px solid #cf881f;
     border-radius: .25rem;
 }
 
@@ -286,5 +286,14 @@ a:hover, a:active {
     .padding-l-r {
         padding-left: 0.1rem;
         padding-right: 0.1rem;
+    }
+    .electric-title {
+        color: #eb9a23 !important;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .kinda-weird {
+        font-size: 0.9rem;
+        line-height: 1rem !important;
     }
 }
